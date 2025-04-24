@@ -1,0 +1,444 @@
+2025-04-20T12:19:18-04:00 [36mINFO[0m starting server...
+2025-04-20T12:19:18-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T12:19:18-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T12:19:21-04:00 [36mINFO[0m starting server...
+2025-04-20T12:19:21-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T12:19:21-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T12:19:25-04:00 [36mINFO[0m client connect success: 865daa5c-d8ab-4469-9e77-1fd347d54e17 void_star
+2025-04-20T12:19:28-04:00 [36mINFO[0m client connect success: de2c24cd-7fb2-4bb6-baef-d000cf96d910 Michael
+2025-04-20T12:19:28-04:00 [35mDBUG[0m message received: 2
+2025-04-20T12:19:28-04:00 [35mDBUG[0m chat request: sending chat response to users
+2025-04-20T12:19:28-04:00 [36mINFO[0m chat request: successfully sent: 2084df9d-5f65-414d-8708-27843c7ded2c
+2025-04-20T12:22:05-04:00 [36mINFO[0m starting server...
+2025-04-20T12:22:05-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T12:22:05-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T12:22:09-04:00 [36mINFO[0m client connect success: 6aee854d-4fd6-40a8-8418-ff949425174c void_star
+2025-04-20T12:22:10-04:00 [33mWARN[0m websockets: connection closed
+2025-04-20T12:23:14-04:00 [36mINFO[0m starting server...
+2025-04-20T12:23:14-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T12:23:14-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T12:23:16-04:00 [36mINFO[0m client connect success: 1c40a395-7cc5-416a-96ae-fb4eed51560d void_star
+2025-04-20T12:48:05-04:00 [36mINFO[0m starting server...
+2025-04-20T12:48:05-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T12:48:05-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T12:48:10-04:00 [36mINFO[0m client connect success: 593ed332-89ac-4133-b9da-b29f1b7d15ac void_star
+2025-04-20T12:48:10-04:00 [35mDBUG[0m client handler started for void_star:593ed332-89ac-4133-b9da-b29f1b7d15ac
+2025-04-20T12:48:14-04:00 [36mINFO[0m client connect success: 1d0277ec-1ae6-4143-8ed9-04841e67b5fe Michael
+2025-04-20T12:48:14-04:00 [35mDBUG[0m client handler started for Michael:1d0277ec-1ae6-4143-8ed9-04841e67b5fe
+2025-04-20T12:48:14-04:00 [35mDBUG[0m message received: 3
+2025-04-20T12:48:14-04:00 [35mDBUG[0m chat request: sending chat response to users
+2025-04-20T12:48:14-04:00 [36mINFO[0m chat request: successfully sent: dc6c3002-bd8a-492f-a7f6-fae122c3b119
+2025-04-20T12:50:22-04:00 [36mINFO[0m starting server...
+2025-04-20T12:50:22-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T12:50:22-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T12:50:34-04:00 [36mINFO[0m client connect success: 46c3e56b-f2d2-4e4a-8d2d-ec5123574344 void_star
+2025-04-20T12:50:34-04:00 [35mDBUG[0m client handler started for void_star:46c3e56b-f2d2-4e4a-8d2d-ec5123574344
+2025-04-20T12:50:38-04:00 [36mINFO[0m client connect success: 3add0327-880f-4160-920e-dac6447ea43a Michael
+2025-04-20T12:50:38-04:00 [35mDBUG[0m client handler started for Michael:3add0327-880f-4160-920e-dac6447ea43a
+2025-04-20T12:50:38-04:00 [35mDBUG[0m message received: 3
+2025-04-20T12:50:38-04:00 [35mDBUG[0m chat request: sending chat response to users
+2025-04-20T12:50:38-04:00 [36mINFO[0m chat request: successfully sent: e141899d-22e2-46f4-a68c-fecee030ce2b
+2025-04-20T12:53:00-04:00 [36mINFO[0m starting server...
+2025-04-20T12:53:00-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T12:53:00-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T12:53:01-04:00 [36mINFO[0m client connect success: ea104d23-3b0d-4f89-9a3a-d8017fa46e97 void_star
+2025-04-20T12:53:01-04:00 [35mDBUG[0m client handler started for void_star:ea104d23-3b0d-4f89-9a3a-d8017fa46e97
+2025-04-20T12:53:03-04:00 [36mINFO[0m client connect success: 0534adc5-86b5-42b5-b343-927a88597211 Michael
+2025-04-20T12:53:03-04:00 [35mDBUG[0m client handler started for Michael:0534adc5-86b5-42b5-b343-927a88597211
+2025-04-20T12:53:03-04:00 [35mDBUG[0m message received: 3
+2025-04-20T12:53:03-04:00 [35mDBUG[0m chat request: sending chat response to users
+2025-04-20T12:53:03-04:00 [36mINFO[0m chat request: successfully sent: 44c89fd9-f021-4dd3-a432-6bcd112a7451
+2025-04-20T12:54:36-04:00 [36mINFO[0m starting server...
+2025-04-20T12:54:36-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T12:54:36-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T12:54:49-04:00 [36mINFO[0m client connect success: 46e5dbf9-316a-4204-8c64-5e6046190d7b void_star
+2025-04-20T12:54:49-04:00 [35mDBUG[0m client handler started for void_star:46e5dbf9-316a-4204-8c64-5e6046190d7b
+2025-04-20T12:54:50-04:00 [36mINFO[0m client connect success: b1d3a052-92bc-4b93-8f1c-44da23108f0c Michael
+2025-04-20T12:54:50-04:00 [35mDBUG[0m client handler started for Michael:b1d3a052-92bc-4b93-8f1c-44da23108f0c
+2025-04-20T12:54:50-04:00 [35mDBUG[0m message received: 3
+2025-04-20T12:54:50-04:00 [35mDBUG[0m chat request: sending chat response to users
+2025-04-20T12:54:50-04:00 [36mINFO[0m chat request: successfully sent: b6591bc4-aed6-4808-81a3-840e8f7a1f26
+2025-04-20T12:56:08-04:00 [36mINFO[0m starting server...
+2025-04-20T12:56:08-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T12:56:08-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T12:56:14-04:00 [36mINFO[0m client connect success: 1e2edcca-38a2-4dc2-baf3-1182d01ca741 void_star
+2025-04-20T12:56:14-04:00 [35mDBUG[0m client handler started for void_star:1e2edcca-38a2-4dc2-baf3-1182d01ca741
+2025-04-20T12:56:15-04:00 [36mINFO[0m client connect success: f64d39ca-ac0d-4908-90c9-6622dd9ef975 Michael
+2025-04-20T12:56:15-04:00 [35mDBUG[0m client handler started for Michael:f64d39ca-ac0d-4908-90c9-6622dd9ef975
+2025-04-20T12:56:15-04:00 [35mDBUG[0m message received: 3
+2025-04-20T12:56:15-04:00 [35mDBUG[0m chat request: sending chat response to users
+2025-04-20T12:56:15-04:00 [36mINFO[0m chat request: successfully sent: f3ed0cbc-6cb3-4451-acc6-72ba9fc5b16b
+2025-04-20T12:56:23-04:00 [35mDBUG[0m message received: 1
+2025-04-20T12:56:23-04:00 [35mDBUG[0m received text message
+2025-04-20T12:56:23-04:00 [35mDBUG[0m found message chat (f3ed0cbc-6cb3-4451-acc6-72ba9fc5b16b)
+2025-04-20T12:57:39-04:00 [36mINFO[0m starting server...
+2025-04-20T12:57:39-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T12:57:39-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T12:59:33-04:00 [36mINFO[0m starting server...
+2025-04-20T12:59:33-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T12:59:33-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T12:59:35-04:00 [36mINFO[0m client connect success: 86a25000-dc74-4c47-a989-4dceacf7cdde void_star
+2025-04-20T12:59:35-04:00 [35mDBUG[0m client handler started for void_star:86a25000-dc74-4c47-a989-4dceacf7cdde
+2025-04-20T12:59:36-04:00 [36mINFO[0m client connect success: 01785ec6-fb89-4042-94e3-882699d378de Michael
+2025-04-20T12:59:36-04:00 [35mDBUG[0m client handler started for Michael:01785ec6-fb89-4042-94e3-882699d378de
+2025-04-20T12:59:36-04:00 [35mDBUG[0m message received: 3
+2025-04-20T12:59:36-04:00 [35mDBUG[0m chat request: sending chat response to users
+2025-04-20T12:59:36-04:00 [36mINFO[0m chat request: successfully sent: 8f33b30e-579d-4f64-9cbe-b3771055a9f8
+2025-04-20T12:59:42-04:00 [35mDBUG[0m message received: 1
+2025-04-20T12:59:42-04:00 [35mDBUG[0m received text message: 8f33b30e-579d-4f64-9cbe-b3771055a9f8 - hello void_star
+2025-04-20T12:59:42-04:00 [35mDBUG[0m message forwarded successfully for chat (8f33b30e-579d-4f64-9cbe-b3771055a9f8)
+2025-04-20T12:59:48-04:00 [35mDBUG[0m message received: 1
+2025-04-20T12:59:48-04:00 [35mDBUG[0m received text message: 8f33b30e-579d-4f64-9cbe-b3771055a9f8 - hello Michael
+2025-04-20T12:59:48-04:00 [35mDBUG[0m message forwarded successfully for chat (8f33b30e-579d-4f64-9cbe-b3771055a9f8)
+2025-04-20T13:00:54-04:00 [36mINFO[0m starting server...
+2025-04-20T13:00:54-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T13:00:54-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T13:01:00-04:00 [36mINFO[0m client connect success: e73f3d6f-eabf-45cd-af71-df2a70c73d8c void_star
+2025-04-20T13:01:00-04:00 [35mDBUG[0m client handler started for void_star:e73f3d6f-eabf-45cd-af71-df2a70c73d8c
+2025-04-20T13:01:01-04:00 [36mINFO[0m client connect success: 4b0a06b4-a5bb-4f08-b66d-733ff65a23c7 Michael
+2025-04-20T13:01:01-04:00 [35mDBUG[0m client handler started for Michael:4b0a06b4-a5bb-4f08-b66d-733ff65a23c7
+2025-04-20T13:01:01-04:00 [35mDBUG[0m message received: 3
+2025-04-20T13:01:01-04:00 [35mDBUG[0m chat request: sending chat response to users
+2025-04-20T13:01:01-04:00 [36mINFO[0m chat request: successfully sent: 118f0815-4c14-4c93-818f-3cd653586d99
+2025-04-20T13:01:07-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:01:07-04:00 [35mDBUG[0m received text message: 118f0815-4c14-4c93-818f-3cd653586d99 - hello void_star
+2025-04-20T13:01:07-04:00 [35mDBUG[0m message forwarded successfully for chat (118f0815-4c14-4c93-818f-3cd653586d99)
+2025-04-20T13:01:20-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:01:20-04:00 [35mDBUG[0m received text message: 118f0815-4c14-4c93-818f-3cd653586d99 - Hi michael
+2025-04-20T13:01:20-04:00 [35mDBUG[0m message forwarded successfully for chat (118f0815-4c14-4c93-818f-3cd653586d99)
+2025-04-20T13:01:22-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:01:22-04:00 [35mDBUG[0m received text message: 118f0815-4c14-4c93-818f-3cd653586d99 - 
+2025-04-20T13:01:22-04:00 [35mDBUG[0m message forwarded successfully for chat (118f0815-4c14-4c93-818f-3cd653586d99)
+2025-04-20T13:01:32-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:01:32-04:00 [35mDBUG[0m received text message: 118f0815-4c14-4c93-818f-3cd653586d99 - This message thing is sort of working!
+2025-04-20T13:01:32-04:00 [35mDBUG[0m message forwarded successfully for chat (118f0815-4c14-4c93-818f-3cd653586d99)
+2025-04-20T13:01:41-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:01:41-04:00 [35mDBUG[0m received text message: 118f0815-4c14-4c93-818f-3cd653586d99 - Wow it really is!
+2025-04-20T13:01:41-04:00 [35mDBUG[0m message forwarded successfully for chat (118f0815-4c14-4c93-818f-3cd653586d99)
+2025-04-20T13:01:54-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:01:54-04:00 [35mDBUG[0m received text message: 118f0815-4c14-4c93-818f-3cd653586d99 - Blah lbah blah lbah blah
+2025-04-20T13:01:54-04:00 [35mDBUG[0m message forwarded successfully for chat (118f0815-4c14-4c93-818f-3cd653586d99)
+2025-04-20T13:02:01-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:02:01-04:00 [35mDBUG[0m received text message: 118f0815-4c14-4c93-818f-3cd653586d99 - helloooo
+2025-04-20T13:02:01-04:00 [35mDBUG[0m message forwarded successfully for chat (118f0815-4c14-4c93-818f-3cd653586d99)
+2025-04-20T13:02:25-04:00 [36mINFO[0m starting server...
+2025-04-20T13:02:25-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T13:02:25-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T13:02:28-04:00 [36mINFO[0m client connect success: 86ce403d-7386-490b-8516-51c0628aa7fc void_star
+2025-04-20T13:02:28-04:00 [35mDBUG[0m client handler started for void_star:86ce403d-7386-490b-8516-51c0628aa7fc
+2025-04-20T13:02:31-04:00 [35mDBUG[0m client handler started for Michael:2baf4fa1-7588-42d9-b47f-0860c96488be
+2025-04-20T13:02:31-04:00 [36mINFO[0m client connect success: 2baf4fa1-7588-42d9-b47f-0860c96488be Michael
+2025-04-20T13:02:31-04:00 [35mDBUG[0m message received: 3
+2025-04-20T13:02:31-04:00 [35mDBUG[0m chat request: sending chat response to users
+2025-04-20T13:02:31-04:00 [36mINFO[0m chat request: successfully sent: 575b5237-4eb7-4e7b-bc6d-54f4e2fedf1b
+2025-04-20T13:02:36-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:02:36-04:00 [35mDBUG[0m received text message: 575b5237-4eb7-4e7b-bc6d-54f4e2fedf1b - Hi void_star
+2025-04-20T13:02:36-04:00 [35mDBUG[0m message forwarded successfully for chat (575b5237-4eb7-4e7b-bc6d-54f4e2fedf1b)
+2025-04-20T13:02:45-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:02:45-04:00 [35mDBUG[0m received text message: 575b5237-4eb7-4e7b-bc6d-54f4e2fedf1b - Hello Michael
+2025-04-20T13:02:45-04:00 [35mDBUG[0m message forwarded successfully for chat (575b5237-4eb7-4e7b-bc6d-54f4e2fedf1b)
+2025-04-20T13:14:21-04:00 [36mINFO[0m starting server...
+2025-04-20T13:14:21-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T13:14:21-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T13:14:25-04:00 [36mINFO[0m client connect success: 2f3f063d-5c7a-4e6c-b5e9-d5c5043e3b12 void_star
+2025-04-20T13:14:25-04:00 [35mDBUG[0m client handler started for void_star:2f3f063d-5c7a-4e6c-b5e9-d5c5043e3b12
+2025-04-20T13:14:25-04:00 [33mWARN[0m websockets: connection closed
+2025-04-20T13:14:25-04:00 [33mWARN[0m client disconnected (void_star)
+2025-04-20T13:14:25-04:00 [33mWARN[0m client deleted from map (void_star)
+2025-04-20T13:15:04-04:00 [36mINFO[0m starting server...
+2025-04-20T13:15:04-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T13:15:04-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T13:15:06-04:00 [36mINFO[0m client connect success: 15e3dc23-cfca-4013-a412-4844c9320e1f void_star
+2025-04-20T13:15:06-04:00 [35mDBUG[0m client handler started for void_star:15e3dc23-cfca-4013-a412-4844c9320e1f
+2025-04-20T13:15:43-04:00 [36mINFO[0m starting server...
+2025-04-20T13:15:43-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T13:15:43-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T13:16:16-04:00 [36mINFO[0m client connect success: 855d69f6-de95-4793-8381-2fded80b6e79 void_star
+2025-04-20T13:16:16-04:00 [35mDBUG[0m client handler started for void_star:855d69f6-de95-4793-8381-2fded80b6e79
+2025-04-20T13:16:20-04:00 [36mINFO[0m client connect success: 6cc2732d-aa7a-4e1d-9ee4-6be9104618e0 Michael
+2025-04-20T13:16:20-04:00 [35mDBUG[0m client handler started for Michael:6cc2732d-aa7a-4e1d-9ee4-6be9104618e0
+2025-04-20T13:16:20-04:00 [35mDBUG[0m message received: 3
+2025-04-20T13:16:20-04:00 [35mDBUG[0m chat request: sending chat response to users
+2025-04-20T13:16:20-04:00 [36mINFO[0m chat request: successfully sent: 622d8a72-a6f0-4509-9b38-94c9cd42711e
+2025-04-20T13:16:27-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:16:27-04:00 [35mDBUG[0m received text message: 622d8a72-a6f0-4509-9b38-94c9cd42711e - Hello Michael
+2025-04-20T13:16:27-04:00 [35mDBUG[0m message forwarded successfully for chat (622d8a72-a6f0-4509-9b38-94c9cd42711e)
+2025-04-20T13:16:34-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:16:34-04:00 [35mDBUG[0m received text message: 622d8a72-a6f0-4509-9b38-94c9cd42711e - Hi void-star
+2025-04-20T13:16:34-04:00 [35mDBUG[0m message forwarded successfully for chat (622d8a72-a6f0-4509-9b38-94c9cd42711e)
+2025-04-20T13:17:19-04:00 [36mINFO[0m starting server...
+2025-04-20T13:17:19-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T13:17:19-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T13:17:22-04:00 [36mINFO[0m client connect success: 252e976c-e0db-460a-9813-a7aeba910be9 void_star
+2025-04-20T13:17:22-04:00 [35mDBUG[0m client handler started for void_star:252e976c-e0db-460a-9813-a7aeba910be9
+2025-04-20T13:17:23-04:00 [36mINFO[0m client connect success: f56bfdac-0d9d-46f4-8801-50d05139aefc Michael
+2025-04-20T13:17:23-04:00 [35mDBUG[0m client handler started for Michael:f56bfdac-0d9d-46f4-8801-50d05139aefc
+2025-04-20T13:17:23-04:00 [35mDBUG[0m message received: 3
+2025-04-20T13:17:23-04:00 [35mDBUG[0m chat request: sending chat response to users
+2025-04-20T13:17:23-04:00 [36mINFO[0m chat request: successfully sent: ac94154c-f596-422a-9c83-19ee8d22acc7
+2025-04-20T13:17:28-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:17:28-04:00 [35mDBUG[0m received text message: ac94154c-f596-422a-9c83-19ee8d22acc7 - hello michael
+2025-04-20T13:17:28-04:00 [35mDBUG[0m message forwarded successfully for chat (ac94154c-f596-422a-9c83-19ee8d22acc7)
+2025-04-20T13:17:33-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:17:33-04:00 [35mDBUG[0m received text message: ac94154c-f596-422a-9c83-19ee8d22acc7 - hi void_star
+2025-04-20T13:17:33-04:00 [35mDBUG[0m message forwarded successfully for chat (ac94154c-f596-422a-9c83-19ee8d22acc7)
+2025-04-20T13:21:23-04:00 [36mINFO[0m starting server...
+2025-04-20T13:21:23-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T13:21:23-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T13:21:26-04:00 [35mDBUG[0m client handler started for void_star:59fd4e6e-5c63-4a19-98d3-e5025e51ab35
+2025-04-20T13:21:26-04:00 [36mINFO[0m client connect success: 59fd4e6e-5c63-4a19-98d3-e5025e51ab35 void_star
+2025-04-20T13:21:27-04:00 [36mINFO[0m client connect success: e65a792a-1d3e-4c46-9232-46463f026a7e Michael
+2025-04-20T13:21:27-04:00 [35mDBUG[0m client handler started for Michael:e65a792a-1d3e-4c46-9232-46463f026a7e
+2025-04-20T13:21:27-04:00 [35mDBUG[0m message received: 3
+2025-04-20T13:21:27-04:00 [35mDBUG[0m chat request: sending chat response to users
+2025-04-20T13:21:27-04:00 [36mINFO[0m chat request: successfully sent: 1cfdab96-1f51-4093-a6ca-75e1fa2db60f
+2025-04-20T13:21:33-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:21:33-04:00 [35mDBUG[0m received text message: 1cfdab96-1f51-4093-a6ca-75e1fa2db60f - Hi void_star
+2025-04-20T13:21:33-04:00 [35mDBUG[0m message forwarded successfully for chat (1cfdab96-1f51-4093-a6ca-75e1fa2db60f)
+2025-04-20T13:21:34-04:00 [33mWARN[0m websockets: connection closed
+2025-04-20T13:21:34-04:00 [33mWARN[0m client disconnected (Michael)
+2025-04-20T13:21:34-04:00 [33mWARN[0m client deleted from map (Michael)
+2025-04-20T13:21:35-04:00 [33mWARN[0m websockets: connection closed
+2025-04-20T13:21:35-04:00 [33mWARN[0m client disconnected (void_star)
+2025-04-20T13:21:35-04:00 [33mWARN[0m client deleted from map (void_star)
+2025-04-20T13:21:41-04:00 [36mINFO[0m starting server...
+2025-04-20T13:21:41-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T13:21:41-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T13:21:44-04:00 [36mINFO[0m starting server...
+2025-04-20T13:21:44-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T13:21:44-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T13:21:48-04:00 [36mINFO[0m client connect success: 73b8f7c7-16f4-41ba-a96d-c1220443f1f0 void_star
+2025-04-20T13:21:48-04:00 [35mDBUG[0m client handler started for void_star:73b8f7c7-16f4-41ba-a96d-c1220443f1f0
+2025-04-20T13:21:48-04:00 [36mINFO[0m client connect success: e67d9206-d867-465f-ad86-8ce7d4f1c718 Michael
+2025-04-20T13:21:48-04:00 [35mDBUG[0m client handler started for Michael:e67d9206-d867-465f-ad86-8ce7d4f1c718
+2025-04-20T13:21:48-04:00 [35mDBUG[0m message received: 3
+2025-04-20T13:21:48-04:00 [35mDBUG[0m chat request: sending chat response to users
+2025-04-20T13:21:48-04:00 [36mINFO[0m chat request: successfully sent: 81b1350c-e432-4bae-8522-3a82117daca2
+2025-04-20T13:21:51-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:21:51-04:00 [35mDBUG[0m received text message: 81b1350c-e432-4bae-8522-3a82117daca2 - Hi Michael
+2025-04-20T13:21:51-04:00 [35mDBUG[0m message forwarded successfully for chat (81b1350c-e432-4bae-8522-3a82117daca2)
+2025-04-20T13:22:00-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:22:00-04:00 [35mDBUG[0m received text message: 81b1350c-e432-4bae-8522-3a82117daca2 - Hi void_star, how are you?
+2025-04-20T13:22:00-04:00 [35mDBUG[0m message forwarded successfully for chat (81b1350c-e432-4bae-8522-3a82117daca2)
+2025-04-20T13:22:08-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:22:08-04:00 [35mDBUG[0m received text message: 81b1350c-e432-4bae-8522-3a82117daca2 - I'm doing well now that this chat is workign!
+2025-04-20T13:22:08-04:00 [35mDBUG[0m message forwarded successfully for chat (81b1350c-e432-4bae-8522-3a82117daca2)
+2025-04-20T13:22:19-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:22:19-04:00 [35mDBUG[0m received text message: 81b1350c-e432-4bae-8522-3a82117daca2 - How neat is this? This is pretty cool!
+2025-04-20T13:22:19-04:00 [35mDBUG[0m message forwarded successfully for chat (81b1350c-e432-4bae-8522-3a82117daca2)
+2025-04-20T13:22:41-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:22:41-04:00 [35mDBUG[0m received text message: 81b1350c-e432-4bae-8522-3a82117daca2 - Here is a nother message!
+2025-04-20T13:22:41-04:00 [35mDBUG[0m message forwarded successfully for chat (81b1350c-e432-4bae-8522-3a82117daca2)
+2025-04-20T13:22:46-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:22:46-04:00 [35mDBUG[0m received text message: 81b1350c-e432-4bae-8522-3a82117daca2 - Things are slowing down though!
+2025-04-20T13:22:46-04:00 [35mDBUG[0m message forwarded successfully for chat (81b1350c-e432-4bae-8522-3a82117daca2)
+2025-04-20T13:22:48-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:22:48-04:00 [35mDBUG[0m received text message: 81b1350c-e432-4bae-8522-3a82117daca2 - Uhoh!
+2025-04-20T13:22:48-04:00 [35mDBUG[0m message forwarded successfully for chat (81b1350c-e432-4bae-8522-3a82117daca2)
+2025-04-20T13:22:50-04:00 [33mWARN[0m websockets: connection closed
+2025-04-20T13:22:50-04:00 [33mWARN[0m client disconnected (Michael)
+2025-04-20T13:22:50-04:00 [33mWARN[0m client deleted from map (Michael)
+2025-04-20T13:22:52-04:00 [33mWARN[0m websockets: connection closed
+2025-04-20T13:22:52-04:00 [33mWARN[0m client disconnected (void_star)
+2025-04-20T13:22:52-04:00 [33mWARN[0m client deleted from map (void_star)
+2025-04-20T13:24:49-04:00 [36mINFO[0m starting server...
+2025-04-20T13:24:49-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T13:24:49-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T13:24:52-04:00 [36mINFO[0m client connect success: 488b9997-a4dc-40a9-b728-99edbfeee982 void_star
+2025-04-20T13:24:52-04:00 [35mDBUG[0m client handler started for void_star:488b9997-a4dc-40a9-b728-99edbfeee982
+2025-04-20T13:24:53-04:00 [36mINFO[0m client connect success: fe5b591f-a0ba-4703-a299-ebe390f070d2 Michael
+2025-04-20T13:24:53-04:00 [35mDBUG[0m client handler started for Michael:fe5b591f-a0ba-4703-a299-ebe390f070d2
+2025-04-20T13:24:53-04:00 [35mDBUG[0m message received: 3
+2025-04-20T13:24:53-04:00 [35mDBUG[0m chat request: sending chat response to users
+2025-04-20T13:24:53-04:00 [36mINFO[0m chat request: successfully sent: 8e3971e9-bcbd-4ddb-bc53-122ecac1b654
+2025-04-20T13:25:01-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:25:01-04:00 [35mDBUG[0m received text message: 8e3971e9-bcbd-4ddb-bc53-122ecac1b654 - Let's hope things don't slow down now!
+2025-04-20T13:25:01-04:00 [35mDBUG[0m message forwarded successfully for chat (8e3971e9-bcbd-4ddb-bc53-122ecac1b654)
+2025-04-20T13:25:13-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:25:13-04:00 [35mDBUG[0m received text message: 8e3971e9-bcbd-4ddb-bc53-122ecac1b654 - The messages are taking their sweet time now!
+2025-04-20T13:25:13-04:00 [35mDBUG[0m message forwarded successfully for chat (8e3971e9-bcbd-4ddb-bc53-122ecac1b654)
+2025-04-20T13:25:30-04:00 [36mINFO[0m starting server...
+2025-04-20T13:25:30-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T13:25:30-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T13:25:33-04:00 [36mINFO[0m client connect success: 263d63dc-514f-454d-a88f-a5780ab6b4a3 void_star
+2025-04-20T13:25:33-04:00 [35mDBUG[0m client handler started for void_star:263d63dc-514f-454d-a88f-a5780ab6b4a3
+2025-04-20T13:25:33-04:00 [36mINFO[0m client connect success: 7223b96b-634f-4375-bd80-55bf3845d880 Michael
+2025-04-20T13:25:33-04:00 [35mDBUG[0m client handler started for Michael:7223b96b-634f-4375-bd80-55bf3845d880
+2025-04-20T13:25:33-04:00 [35mDBUG[0m message received: 3
+2025-04-20T13:25:33-04:00 [35mDBUG[0m chat request: sending chat response to users
+2025-04-20T13:25:33-04:00 [36mINFO[0m chat request: successfully sent: 42bf73ae-4a4b-41f6-a21d-b26dc0783212
+2025-04-20T13:25:38-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:25:38-04:00 [35mDBUG[0m received text message: 42bf73ae-4a4b-41f6-a21d-b26dc0783212 - Hi Michael
+2025-04-20T13:25:38-04:00 [35mDBUG[0m message forwarded successfully for chat (42bf73ae-4a4b-41f6-a21d-b26dc0783212)
+2025-04-20T13:25:43-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:25:43-04:00 [35mDBUG[0m received text message: 42bf73ae-4a4b-41f6-a21d-b26dc0783212 - Hi void_star
+2025-04-20T13:25:43-04:00 [35mDBUG[0m message forwarded successfully for chat (42bf73ae-4a4b-41f6-a21d-b26dc0783212)
+2025-04-20T13:25:49-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:25:49-04:00 [35mDBUG[0m received text message: 42bf73ae-4a4b-41f6-a21d-b26dc0783212 - Here is a message for you!
+2025-04-20T13:25:49-04:00 [35mDBUG[0m message forwarded successfully for chat (42bf73ae-4a4b-41f6-a21d-b26dc0783212)
+2025-04-20T13:26:02-04:00 [36mINFO[0m starting server...
+2025-04-20T13:26:02-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T13:26:02-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T13:26:05-04:00 [36mINFO[0m client connect success: 1b03c132-4b3a-4014-99b0-c3d3c9371417 void_star
+2025-04-20T13:26:05-04:00 [35mDBUG[0m client handler started for void_star:1b03c132-4b3a-4014-99b0-c3d3c9371417
+2025-04-20T13:26:07-04:00 [36mINFO[0m client connect success: a9119cc3-f6d0-4df4-bf7c-8e1e1fe9ab67 Michael
+2025-04-20T13:26:07-04:00 [35mDBUG[0m client handler started for Michael:a9119cc3-f6d0-4df4-bf7c-8e1e1fe9ab67
+2025-04-20T13:26:07-04:00 [35mDBUG[0m message received: 3
+2025-04-20T13:26:07-04:00 [35mDBUG[0m chat request: sending chat response to users
+2025-04-20T13:26:07-04:00 [36mINFO[0m chat request: successfully sent: ea16e8bf-e380-4f4b-a3af-0674492325f8
+2025-04-20T13:26:11-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:26:11-04:00 [35mDBUG[0m received text message: ea16e8bf-e380-4f4b-a3af-0674492325f8 - Hi void_star
+2025-04-20T13:26:11-04:00 [35mDBUG[0m message forwarded successfully for chat (ea16e8bf-e380-4f4b-a3af-0674492325f8)
+2025-04-20T13:26:16-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:26:16-04:00 [35mDBUG[0m received text message: ea16e8bf-e380-4f4b-a3af-0674492325f8 - Hello
+2025-04-20T13:26:16-04:00 [35mDBUG[0m message forwarded successfully for chat (ea16e8bf-e380-4f4b-a3af-0674492325f8)
+2025-04-20T13:26:41-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:26:41-04:00 [35mDBUG[0m received text message: ea16e8bf-e380-4f4b-a3af-0674492325f8 - Hmm things aren't slowing down yet, but the messages aren't showing up fast enough for me
+2025-04-20T13:26:41-04:00 [35mDBUG[0m message forwarded successfully for chat (ea16e8bf-e380-4f4b-a3af-0674492325f8)
+2025-04-20T13:26:51-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:26:51-04:00 [35mDBUG[0m received text message: ea16e8bf-e380-4f4b-a3af-0674492325f8 - They are still a bit slow
+2025-04-20T13:26:51-04:00 [35mDBUG[0m message forwarded successfully for chat (ea16e8bf-e380-4f4b-a3af-0674492325f8)
+2025-04-20T13:27:45-04:00 [35mDBUG[0m message received: 1
+2025-04-20T13:27:45-04:00 [35mDBUG[0m received text message: ea16e8bf-e380-4f4b-a3af-0674492325f8 - I need a system that updates the chat text only when new messages are available.
+2025-04-20T13:27:45-04:00 [35mDBUG[0m message forwarded successfully for chat (ea16e8bf-e380-4f4b-a3af-0674492325f8)
+2025-04-20T13:27:48-04:00 [33mWARN[0m websockets: connection closed
+2025-04-20T13:27:48-04:00 [33mWARN[0m client disconnected (void_star)
+2025-04-20T13:27:48-04:00 [33mWARN[0m client deleted from map (void_star)
+2025-04-20T13:27:49-04:00 [33mWARN[0m websockets: connection closed
+2025-04-20T13:27:49-04:00 [33mWARN[0m client disconnected (Michael)
+2025-04-20T13:27:49-04:00 [33mWARN[0m client deleted from map (Michael)
+2025-04-20T16:19:00-04:00 [36mINFO[0m client connect success: 03efcab5-dfb3-443d-8840-16baa8d18e2a void_star
+2025-04-20T16:19:00-04:00 [35mDBUG[0m client handler started for void_star:03efcab5-dfb3-443d-8840-16baa8d18e2a
+2025-04-20T16:19:01-04:00 [36mINFO[0m client connect success: c14d21ed-ecbd-4084-a650-b8dc7d3fd417 Michael
+2025-04-20T16:19:01-04:00 [35mDBUG[0m client handler started for Michael:c14d21ed-ecbd-4084-a650-b8dc7d3fd417
+2025-04-20T16:19:01-04:00 [35mDBUG[0m message received: 3
+2025-04-20T16:19:01-04:00 [35mDBUG[0m chat request: sending chat response to users
+2025-04-20T16:19:01-04:00 [36mINFO[0m chat request: successfully sent: d55ab0fb-61b0-453f-883d-0c0a8e42e317
+2025-04-20T16:19:08-04:00 [35mDBUG[0m message received: 1
+2025-04-20T16:19:08-04:00 [35mDBUG[0m received text message: d55ab0fb-61b0-453f-883d-0c0a8e42e317 - Hi michael
+2025-04-20T16:19:08-04:00 [35mDBUG[0m message forwarded successfully for chat (d55ab0fb-61b0-453f-883d-0c0a8e42e317)
+2025-04-20T16:19:14-04:00 [35mDBUG[0m message received: 1
+2025-04-20T16:19:14-04:00 [35mDBUG[0m received text message: d55ab0fb-61b0-453f-883d-0c0a8e42e317 - Hi void_star
+2025-04-20T16:19:14-04:00 [35mDBUG[0m message forwarded successfully for chat (d55ab0fb-61b0-453f-883d-0c0a8e42e317)
+2025-04-20T16:19:24-04:00 [33mWARN[0m websockets: connection closed
+2025-04-20T16:19:24-04:00 [33mWARN[0m client disconnected (Michael)
+2025-04-20T16:19:24-04:00 [33mWARN[0m client deleted from map (Michael)
+2025-04-20T16:19:29-04:00 [33mWARN[0m websockets: connection closed
+2025-04-20T16:19:29-04:00 [33mWARN[0m client disconnected (void_star)
+2025-04-20T16:19:29-04:00 [33mWARN[0m client deleted from map (void_star)
+2025-04-20T16:20:47-04:00 [36mINFO[0m starting server...
+2025-04-20T16:20:47-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T16:20:47-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T16:20:49-04:00 [36mINFO[0m client connect success: e905c64c-8688-4fcf-83d4-04cefa26963a void_star
+2025-04-20T16:20:49-04:00 [35mDBUG[0m client handler started for void_star:e905c64c-8688-4fcf-83d4-04cefa26963a
+2025-04-20T16:20:52-04:00 [36mINFO[0m client connect success: b4718aad-4e1b-4df9-87e4-35304715fc01 Michael
+2025-04-20T16:20:52-04:00 [35mDBUG[0m client handler started for Michael:b4718aad-4e1b-4df9-87e4-35304715fc01
+2025-04-20T16:20:52-04:00 [35mDBUG[0m message received: 3
+2025-04-20T16:20:52-04:00 [35mDBUG[0m chat request: sending chat response to users
+2025-04-20T16:20:52-04:00 [36mINFO[0m chat request: successfully sent: 7076e937-b43a-4416-983e-7512e3ce02b8
+2025-04-20T16:20:56-04:00 [35mDBUG[0m message received: 1
+2025-04-20T16:20:56-04:00 [35mDBUG[0m received text message: 7076e937-b43a-4416-983e-7512e3ce02b8 - Hi Michael
+2025-04-20T16:20:56-04:00 [35mDBUG[0m message forwarded successfully for chat (7076e937-b43a-4416-983e-7512e3ce02b8)
+2025-04-20T16:21:04-04:00 [35mDBUG[0m message received: 1
+2025-04-20T16:21:04-04:00 [35mDBUG[0m received text message: 7076e937-b43a-4416-983e-7512e3ce02b8 - Hi void_star
+2025-04-20T16:21:04-04:00 [35mDBUG[0m message forwarded successfully for chat (7076e937-b43a-4416-983e-7512e3ce02b8)
+2025-04-20T16:21:24-04:00 [33mWARN[0m websockets: connection closed
+2025-04-20T16:21:24-04:00 [33mWARN[0m client disconnected (void_star)
+2025-04-20T16:21:24-04:00 [33mWARN[0m client deleted from map (void_star)
+2025-04-20T16:21:25-04:00 [33mWARN[0m websockets: connection closed
+2025-04-20T16:21:25-04:00 [33mWARN[0m client disconnected (Michael)
+2025-04-20T16:21:25-04:00 [33mWARN[0m client deleted from map (Michael)
+2025-04-20T16:21:28-04:00 [36mINFO[0m starting server...
+2025-04-20T16:21:28-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T16:21:28-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T16:21:30-04:00 [36mINFO[0m client connect success: b78f5b0c-23a5-4ec8-b8fd-da05ce360383 void_star
+2025-04-20T16:21:30-04:00 [35mDBUG[0m client handler started for void_star:b78f5b0c-23a5-4ec8-b8fd-da05ce360383
+2025-04-20T16:21:31-04:00 [36mINFO[0m client connect success: b9ad1e97-081e-4e97-9458-1c562edd61ca Michael
+2025-04-20T16:21:31-04:00 [35mDBUG[0m client handler started for Michael:b9ad1e97-081e-4e97-9458-1c562edd61ca
+2025-04-20T16:21:31-04:00 [35mDBUG[0m message received: 3
+2025-04-20T16:21:31-04:00 [35mDBUG[0m chat request: sending chat response to users
+2025-04-20T16:21:31-04:00 [36mINFO[0m chat request: successfully sent: db8b6c5e-dd57-459b-bfab-c43fd8603cfd
+2025-04-20T16:21:35-04:00 [35mDBUG[0m message received: 1
+2025-04-20T16:21:35-04:00 [35mDBUG[0m received text message: db8b6c5e-dd57-459b-bfab-c43fd8603cfd - Hi michael
+2025-04-20T16:21:35-04:00 [35mDBUG[0m message forwarded successfully for chat (db8b6c5e-dd57-459b-bfab-c43fd8603cfd)
+2025-04-20T16:21:42-04:00 [35mDBUG[0m message received: 1
+2025-04-20T16:21:42-04:00 [35mDBUG[0m received text message: db8b6c5e-dd57-459b-bfab-c43fd8603cfd - Hi void_star
+2025-04-20T16:21:42-04:00 [35mDBUG[0m message forwarded successfully for chat (db8b6c5e-dd57-459b-bfab-c43fd8603cfd)
+2025-04-20T16:21:48-04:00 [33mWARN[0m websockets: connection closed
+2025-04-20T16:21:48-04:00 [33mWARN[0m client disconnected (Michael)
+2025-04-20T16:21:48-04:00 [33mWARN[0m client deleted from map (Michael)
+2025-04-20T16:21:48-04:00 [33mWARN[0m websockets: connection closed
+2025-04-20T16:21:48-04:00 [33mWARN[0m client disconnected (void_star)
+2025-04-20T16:21:48-04:00 [33mWARN[0m client deleted from map (void_star)
+2025-04-20T16:23:06-04:00 [36mINFO[0m starting server...
+2025-04-20T16:23:06-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T16:23:06-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T16:23:08-04:00 [36mINFO[0m client connect success: 4da0d927-9dc0-4833-afd8-aca6f492176c void_star
+2025-04-20T16:23:08-04:00 [35mDBUG[0m client handler started for void_star:4da0d927-9dc0-4833-afd8-aca6f492176c
+2025-04-20T16:23:11-04:00 [36mINFO[0m client connect success: 70c3f3a6-cf03-4c31-8fe9-c28714214089 Michael
+2025-04-20T16:23:11-04:00 [35mDBUG[0m client handler started for Michael:70c3f3a6-cf03-4c31-8fe9-c28714214089
+2025-04-20T16:23:11-04:00 [35mDBUG[0m message received: 3
+2025-04-20T16:23:11-04:00 [35mDBUG[0m chat request: sending chat response to users
+2025-04-20T16:23:11-04:00 [36mINFO[0m chat request: successfully sent: 5803c3d1-459c-48fe-98fc-538b56ae99e7
+2025-04-20T16:23:27-04:00 [36mINFO[0m starting server...
+2025-04-20T16:23:27-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T16:23:27-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T16:23:31-04:00 [36mINFO[0m client connect success: 913f845f-c6f5-4c5a-8e41-e9d7d7965cf0 void_star
+2025-04-20T16:23:31-04:00 [35mDBUG[0m client handler started for void_star:913f845f-c6f5-4c5a-8e41-e9d7d7965cf0
+2025-04-20T16:23:32-04:00 [36mINFO[0m client connect success: 2830fc4e-1787-4b13-ba40-56979908cd0f Michael
+2025-04-20T16:23:32-04:00 [35mDBUG[0m client handler started for Michael:2830fc4e-1787-4b13-ba40-56979908cd0f
+2025-04-20T16:23:32-04:00 [35mDBUG[0m message received: 3
+2025-04-20T16:23:32-04:00 [35mDBUG[0m chat request: sending chat response to users
+2025-04-20T16:23:32-04:00 [36mINFO[0m chat request: successfully sent: 1542ddfd-f273-495c-b4a0-e86c350b0cf6
+2025-04-20T16:23:36-04:00 [35mDBUG[0m message received: 1
+2025-04-20T16:23:36-04:00 [35mDBUG[0m received text message: 1542ddfd-f273-495c-b4a0-e86c350b0cf6 - Hi Michael
+2025-04-20T16:23:36-04:00 [35mDBUG[0m message forwarded successfully for chat (1542ddfd-f273-495c-b4a0-e86c350b0cf6)
+2025-04-20T16:23:41-04:00 [35mDBUG[0m message received: 1
+2025-04-20T16:23:41-04:00 [35mDBUG[0m received text message: 1542ddfd-f273-495c-b4a0-e86c350b0cf6 - Hi void_star
+2025-04-20T16:23:41-04:00 [35mDBUG[0m message forwarded successfully for chat (1542ddfd-f273-495c-b4a0-e86c350b0cf6)
+2025-04-20T16:23:42-04:00 [35mDBUG[0m message received: 1
+2025-04-20T16:23:42-04:00 [35mDBUG[0m received text message: 1542ddfd-f273-495c-b4a0-e86c350b0cf6 - 
+2025-04-20T16:23:42-04:00 [35mDBUG[0m message forwarded successfully for chat (1542ddfd-f273-495c-b4a0-e86c350b0cf6)
+2025-04-20T16:23:44-04:00 [35mDBUG[0m message received: 1
+2025-04-20T16:23:44-04:00 [35mDBUG[0m received text message: 1542ddfd-f273-495c-b4a0-e86c350b0cf6 - How are you?
+2025-04-20T16:23:44-04:00 [35mDBUG[0m message forwarded successfully for chat (1542ddfd-f273-495c-b4a0-e86c350b0cf6)
+2025-04-20T16:23:46-04:00 [35mDBUG[0m message received: 1
+2025-04-20T16:23:46-04:00 [35mDBUG[0m received text message: 1542ddfd-f273-495c-b4a0-e86c350b0cf6 - 
+2025-04-20T16:23:46-04:00 [35mDBUG[0m message forwarded successfully for chat (1542ddfd-f273-495c-b4a0-e86c350b0cf6)
+2025-04-20T16:23:46-04:00 [35mDBUG[0m message received: 1
+2025-04-20T16:23:46-04:00 [35mDBUG[0m received text message: 1542ddfd-f273-495c-b4a0-e86c350b0cf6 - 
+2025-04-20T16:23:46-04:00 [35mDBUG[0m message forwarded successfully for chat (1542ddfd-f273-495c-b4a0-e86c350b0cf6)
+2025-04-20T16:23:46-04:00 [35mDBUG[0m message received: 1
+2025-04-20T16:23:46-04:00 [35mDBUG[0m received text message: 1542ddfd-f273-495c-b4a0-e86c350b0cf6 - 
+2025-04-20T16:23:46-04:00 [35mDBUG[0m message forwarded successfully for chat (1542ddfd-f273-495c-b4a0-e86c350b0cf6)
+2025-04-20T16:23:53-04:00 [35mDBUG[0m message received: 1
+2025-04-20T16:23:53-04:00 [35mDBUG[0m received text message: 1542ddfd-f273-495c-b4a0-e86c350b0cf6 - Here are a bunch of messages
+2025-04-20T16:23:53-04:00 [35mDBUG[0m message forwarded successfully for chat (1542ddfd-f273-495c-b4a0-e86c350b0cf6)
+2025-04-20T16:23:56-04:00 [35mDBUG[0m message received: 1
+2025-04-20T16:23:56-04:00 [35mDBUG[0m received text message: 1542ddfd-f273-495c-b4a0-e86c350b0cf6 - Blah blah lbah
+2025-04-20T16:23:56-04:00 [35mDBUG[0m message forwarded successfully for chat (1542ddfd-f273-495c-b4a0-e86c350b0cf6)
+2025-04-20T16:24:45-04:00 [36mINFO[0m starting server...
+2025-04-20T16:24:45-04:00 [36mINFO[0m listening on 127.0.0.1:9998...
+2025-04-20T16:24:45-04:00 [36mINFO[0m listening for client messages...
+2025-04-20T16:24:49-04:00 [36mINFO[0m client connect success: 51648445-7a28-4fda-ac95-aacb817f340e void_star
+2025-04-20T16:24:49-04:00 [35mDBUG[0m client handler started for void_star:51648445-7a28-4fda-ac95-aacb817f340e
+2025-04-20T16:24:50-04:00 [36mINFO[0m client connect success: 3c1cd9a6-06f5-4763-bb04-bdbfcbd7870b Michael
+2025-04-20T16:24:50-04:00 [35mDBUG[0m client handler started for Michael:3c1cd9a6-06f5-4763-bb04-bdbfcbd7870b
+2025-04-20T16:24:50-04:00 [35mDBUG[0m message received: 3
+2025-04-20T16:24:50-04:00 [35mDBUG[0m chat request: sending chat response to users
+2025-04-20T16:24:50-04:00 [36mINFO[0m chat request: successfully sent: 6c432b65-f591-4a24-9c63-f6c3dcd09122
+2025-04-20T16:24:54-04:00 [35mDBUG[0m message received: 1
+2025-04-20T16:24:54-04:00 [35mDBUG[0m received text message: 6c432b65-f591-4a24-9c63-f6c3dcd09122 - Hi michael
+2025-04-20T16:24:54-04:00 [35mDBUG[0m message forwarded successfully for chat (6c432b65-f591-4a24-9c63-f6c3dcd09122)
+2025-04-20T16:25:00-04:00 [35mDBUG[0m message received: 1
+2025-04-20T16:25:00-04:00 [35mDBUG[0m received text message: 6c432b65-f591-4a24-9c63-f6c3dcd09122 - Hi void_star
+2025-04-20T16:25:00-04:00 [35mDBUG[0m message forwarded successfully for chat (6c432b65-f591-4a24-9c63-f6c3dcd09122)
+2025-04-20T16:25:02-04:00 [35mDBUG[0m message received: 1
+2025-04-20T16:25:02-04:00 [35mDBUG[0m received text message: 6c432b65-f591-4a24-9c63-f6c3dcd09122 - How are you?
+2025-04-20T16:25:02-04:00 [35mDBUG[0m message forwarded successfully for chat (6c432b65-f591-4a24-9c63-f6c3dcd09122)
+2025-04-20T16:25:08-04:00 [35mDBUG[0m message received: 1
+2025-04-20T16:25:08-04:00 [35mDBUG[0m received text message: 6c432b65-f591-4a24-9c63-f6c3dcd09122 - I'm good thank you very much
+2025-04-20T16:25:08-04:00 [35mDBUG[0m message forwarded successfully for chat (6c432b65-f591-4a24-9c63-f6c3dcd09122)
+2025-04-20T16:25:13-04:00 [35mDBUG[0m message received: 1
+2025-04-20T16:25:13-04:00 [35mDBUG[0m received text message: 6c432b65-f591-4a24-9c63-f6c3dcd09122 - You're welcome!
+2025-04-20T16:25:13-04:00 [35mDBUG[0m message forwarded successfully for chat (6c432b65-f591-4a24-9c63-f6c3dcd09122)
