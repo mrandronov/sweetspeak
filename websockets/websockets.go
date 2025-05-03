@@ -106,4 +106,7 @@ func (w *WebsocketHandler) Close() {
 
 	w.active = false
 	w.conn.Close()
+
+	close(w.ReadCh)
+	close(w.WriteCh)
 }

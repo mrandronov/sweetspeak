@@ -8,4 +8,6 @@ build-client:
 build-server:
         go build -o sweetspeak-server server.go
 
+clean:
+	rm sweetspeak-client sweetspeak-server
 

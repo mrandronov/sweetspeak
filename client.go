@@ -3,13 +3,12 @@ package main
 import (
 	"fmt"
 	"os"
+	"sweetspeak/chatpanel"
 	"sweetspeak/client"
 	log "sweetspeak/logging"
 	"sweetspeak/user"
 	"time"
 
-	"github.com/charmbracelet/bubbles/textinput"
-	"github.com/charmbracelet/bubbles/viewport"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
 	"github.com/google/uuid"
@@ -37,24 +36,23 @@ var (
 			BorderStyle(lipgloss.ThickBorder()).
 			BorderForeground(lipgloss.Color("#FAFAFA"))
 
-	chatStyle = lipgloss.NewStyle().Align(lipgloss.Bottom)
-
 	helpStyle   = lipgloss.NewStyle().Foreground(lipgloss.Color("241"))
 	statusStyle = lipgloss.NewStyle().
 			Align(lipgloss.Left)
+
+	serverStatusConnected = statusStyle.Foreground(lipgloss.Color("10")).Render("CONNECTED\n")
+	serverStatusPending   = statusStyle.Foreground(lipgloss.Color("8")).Render("PENDING - connecting to server\n")
 )
 
 type (
 	MainDisplay struct {
-		state        sessionState
-		sideText     string
-		chatText     string
-		viewport     viewport.Model
-		chatInput    textinput.Model
-		index        int
-		ready        bool
-		client       *client.Client
-		updateTicker time.Ticker
+		state            sessionState
+		sideText         string
+		index            int
+		ready            bool
+		ChatPanel        chatpanel.Model
+		client           *client.Client
+		serverStatusView string
 	}
 
 	SideDisplay struct {
@@ -67,50 +65,50 @@ type (
 	}
 )
 
-func newMainDisplay(userName string) MainDisplay {
-	newUser := user.New(userName, lipgloss.Color("#4287f5"))
-        if userName == "void_star" {
-                newUser = user.New(userName, lipgloss.Color("#61eb34"))
-        }
-	m := MainDisplay{
-		sideText:     "this is the side view :P",
-		chatText:     "",
-		client:       client.New(uuid.NewString(), newUser, nil),
-		updateTicker: *time.NewTicker(mainUpdatePeriod),
-	}
-
-	m.viewport = viewport.New(chatPanelStyle.GetWidth(), 20)
-	m.viewport.SetContent(m.chatText)
-
-	m.chatInput = textinput.New()
-	m.chatInput.Placeholder = "Type a message here..."
-	m.chatInput.Cursor.Blink = false
-
-	// Connect the client to start
-	if err := m.client.Start(); err != nil {
-		log.Error("client connect failed: %v", err)
-	} else {
-		// Introduction was already sent, now send
-		// a default chat request.
-
-		if userName == "Michael" {
-			to := "void_star"
-			m.client.SendChatRequest(to)
+func newMainDisplay(clientUser *user.User) MainDisplay {
+	var (
+		chatInputCh = make(chan string)
+		m           = MainDisplay{
+			sideText: "this is the side view :P",
+			ChatPanel: chatpanel.New(
+				fmt.Sprintf("%s's Chat", clientUser.Name),
+				chatPanelStyle.GetWidth(),
+				chatPanelStyle.GetHeight(),
+				chatInputCh,
+			),
+			client: client.New(
+				uuid.NewString(),
+				clientUser,
+				nil,
+				chatInputCh,
+			),
 		}
-	}
+	)
+
+	go m.client.Start()
 
 	return m
 }
 
-func (m MainDisplay) Init() tea.Cmd {
-	return m.updateTextMsgs
+func (m MainDisplay) tickEvery() tea.Cmd {
+	return tea.Every(time.Second, func(t time.Time) tea.Msg {
+		return m.CheckClientConnection(t)
+	})
 }
 
-func styleWithWidthAndHeight(style lipgloss.Style, width, height int) lipgloss.Style {
-	var s lipgloss.Style
-	return s.Inherit(style).
-		Width(width).
-		Height(height)
+func (m MainDisplay) checkChatUpdateEvery() tea.Cmd {
+	return tea.Every(time.Second, func(t time.Time) tea.Msg {
+		return m.CheckChatText(t)
+	})
+}
+
+func (m MainDisplay) Init() tea.Cmd {
+	cmds := []tea.Cmd{
+		m.tickEvery(),
+		m.checkChatUpdateEvery(),
+	}
+
+	return tea.Batch(cmds...)
 }
 
 func (m MainDisplay) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
@@ -121,33 +119,20 @@ func (m MainDisplay) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		case "ctrl+c":
 			return m, tea.Quit
 		case "q":
-			if !m.chatInput.Focused() {
+			if !m.ChatPanel.Focused() {
 				return m, tea.Quit
 			}
 		case "tab":
 			if m.state == sideView {
 				m.state = chatView
-			} else if !m.chatInput.Focused() {
+			} else if !m.ChatPanel.Focused() {
 				m.state = sideView
 			}
-		case "esc":
-			m.chatInput.Blur()
-		case "enter":
+		default:
 			if m.state == chatView {
-				if !m.chatInput.Focused() {
-					m.chatInput.Focus()
-				} else {
-					// Just send the text and reset the text input
-					msgText := m.chatInput.Value()
-					m.client.SendChatMessage(msgText)
-					m.chatInput.Reset()
-				}
+				m, cmds = m.UpdateChatPanel(msg, cmds)
 			}
 		}
-	case textMsgStatus:
-		content := msg.String()
-		m.chatText = content
-		m.viewport.SetContent(m.chatText)
 	case tea.WindowSizeMsg:
 		termWidth := msg.Width - 5
 		termHeight := msg.Height - 5
@@ -159,31 +144,39 @@ func (m MainDisplay) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		chatPanelStyle = styleWithWidthAndHeight(chatPanelStyle, chatPanelWidth, termHeight)
 
 		// Update the internal components too
-		viewPortHeight := chatPanelStyle.GetHeight() - 5
-		m.viewport = viewport.New(chatPanelStyle.GetWidth(), viewPortHeight)
-		m.viewport.SetContent(m.chatText)
+		m.ChatPanel.SetHeight(chatPanelStyle.GetHeight() - 1)
+		m.ChatPanel.SetWidth(chatPanelStyle.GetWidth())
 
-		chatStyle.Width(chatPanelStyle.GetWidth())
-		m.chatInput.Width = chatPanelStyle.GetWidth() - 5
+		m, cmds = m.UpdateChatPanel(msg, cmds)
 
 		m.ready = true
-	}
-
-	if m.chatInput.Focused() {
-		var cmd tea.Cmd
-		m.chatInput, cmd = m.chatInput.Update(msg)
-		cmds = append(cmds, cmd)
-	}
-
-	// Additional default commands to execute...
-
-	select {
-	case <-m.updateTicker.C:
-		cmds = append(cmds, m.updateTextMsgs)
-	default:
+	case chatpanel.ChatTextMsg:
+		m, cmds = m.UpdateChatPanel(msg, cmds)
+		cmds = append(cmds, m.checkChatUpdateEvery())
+	case ServerStatusMsg:
+		if msg.Connected {
+			m.serverStatusView = serverStatusConnected
+		} else {
+			m.serverStatusView = serverStatusPending
+		}
+		cmds = append(cmds, m.tickEvery())
 	}
 
 	return m, tea.Batch(cmds...)
+}
+
+func styleWithWidthAndHeight(style lipgloss.Style, width, height int) lipgloss.Style {
+	var s lipgloss.Style
+	return s.Inherit(style).
+		Width(width).
+		Height(height)
+}
+
+func (m MainDisplay) UpdateChatPanel(msg tea.Msg, cmds []tea.Cmd) (MainDisplay, []tea.Cmd) {
+	var cmd tea.Cmd
+	m.ChatPanel, cmd = m.ChatPanel.Update(msg)
+	cmds = append(cmds, cmd)
+	return m, cmds
 }
 
 func (m MainDisplay) View() string {
@@ -191,10 +184,7 @@ func (m MainDisplay) View() string {
 		return "intializing...\n"
 	}
 
-	var (
-		s string
-	)
-
+	var s string
 	if m.state == sideView {
 		// Side panel is focused
 		sidePanelStyle = sidePanelStyle.BorderForeground(focusColor)
@@ -210,23 +200,13 @@ func (m MainDisplay) View() string {
 		sidePanelStyle.Render( // Side Display
 			m.sideText,
 		),
-		chatPanelStyle.Render( // Chat Display
-			lipgloss.JoinVertical(
-				lipgloss.Top,
-				m.viewport.View(),
-				chatStyle.Render(m.chatInput.View()),
-			),
+		chatPanelStyle.Render(
+			m.ChatPanel.View(),
 		),
 	)
 
 	s += "\n"
-
-	if m.client.Connected {
-                statusStyle.UnsetForeground()
-                s += statusStyle.Foreground(lipgloss.Color("4")).Render("CONNECTED\n")
-	} else {
-                s += statusStyle.Foreground(lipgloss.Color("8")).Render("PENDING - connecting to server\n")
-	}
+	s += m.serverStatusView
 
 	return s
 }
@@ -238,48 +218,81 @@ func (m MainDisplay) focusedModel() string {
 	return "chat"
 }
 
+func (m MainDisplay) CheckClientConnection(t time.Time) tea.Msg {
+	return NewServerStatusMsg(m.client.Connected)
+}
+
+func (m MainDisplay) CheckChatText(t time.Time) tea.Msg {
+	if m.client == nil {
+		return chatpanel.ChatTextMsg{}
+	}
+
+	if m.client.Chat == nil {
+		return chatpanel.ChatTextMsg{}
+	}
+
+	allMsg := m.client.Chat.GetWithFormat()
+	var content string
+	for _, m := range allMsg {
+		content += m
+	}
+	return chatpanel.ChatTextMsg{Content: content}
+}
+
 func main() {
 	if len(os.Args) < 2 {
 		log.Warn("need more args! (username)")
 		panic(0)
 	}
-	userName := os.Args[1]
+	var (
+		userName string
+		userColor lipgloss.Color
+	)
+
+	userName = os.Args[1]
+
+	if len(os.Args) < 3 {
+		userColor = lipgloss.Color("#4287f5")
+	} else {
+		userColor = lipgloss.Color(fmt.Sprintf("#%s", os.Args[2]))
+	}
+
+	clientUser := user.New(userName, userColor)
 
 	log.SetGlobalFile(fmt.Sprintf("sweetspeak-client-%s.log", userName))
 	log.SetConsoleOutput(false)
 
 	log.Info("starting user client...")
-	p := tea.NewProgram(newMainDisplay(userName), tea.WithAltScreen())
+	p := tea.NewProgram(newMainDisplay(clientUser), tea.WithAltScreen())
 	if _, err := p.Run(); err != nil {
 		panic(err)
 	}
 }
 
-func (m MainDisplay) updateTextMsgs() tea.Msg {
-	chatText := ""
-	if m.client.Chat == nil {
-		return textMsgStatus{}
-	}
-
-	chatMessage := m.client.Chat.GetWithFormat()
-	for _, msg := range chatMessage {
-		chatText += msg
-	}
-
-	return NewTextMsgStatus(chatText)
-}
-
 type (
-	textMsgStatus struct{ content string }
-	errMsg        struct{ err error }
+	ErrMsg struct {
+		err error
+	}
+
+	ServerStatusMsg struct {
+		Connected bool
+	}
+
+	ChatTextMsg struct {
+		content string
+	}
 )
 
-func NewTextMsgStatus(content string) textMsgStatus {
-	return textMsgStatus{content: content}
+func NewServerStatusMsg(connected bool) ServerStatusMsg {
+	return ServerStatusMsg{
+		Connected: connected,
+	}
 }
 
-func (t textMsgStatus) String() string {
-	return t.content
+func (s ServerStatusMsg) String() string {
+	return fmt.Sprintf("%t", s.Connected)
 }
 
-func (e errMsg) Error() string { return e.err.Error() }
+func (e ErrMsg) Error() string {
+	return e.err.Error()
+}
